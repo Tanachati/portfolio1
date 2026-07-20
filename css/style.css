@@ -1058,3 +1058,86 @@ color:#555;
 line-height:1.8;
 
 }
+/*==========================
+    CERTIFICATES PAGE
+==========================*/
+
+.certificates-page{
+
+padding:130px 8%;
+
+}
+
+.certificate-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.certificate-item{
+
+background:#fff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:var(--shadow);
+
+transition:.4s;
+
+}
+
+.certificate-item:hover{
+
+transform:translateY(-10px);
+
+}
+
+.certificate-item img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.certificate-item:hover img{
+
+transform:scale(1.08);
+
+}
+
+.certificate-info{
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.certificate-info h3{
+
+color:var(--dark);
+
+margin-bottom:10px;
+
+}
+
+.certificate-info p{
+
+color:#555;
+
+line-height:1.7;
+
+}
