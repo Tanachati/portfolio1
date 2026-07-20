@@ -1141,3 +1141,46 @@ color:#555;
 line-height:1.7;
 
 }
+/* CONTACT HOVER EFFECT */
+
+.contact-box{
+
+border-left:5px solid var(--primary);
+
+}
+
+.contact-box:hover{
+
+background:var(--primary);
+
+color:white;
+
+}
+
+.contact-box:hover h3,
+
+.contact-box:hover p,
+
+.contact-box:hover a,
+
+.contact-box:hover i{
+
+color:white;
+
+}
+
+.contact-left{
+
+background:linear-gradient(135deg,#2E7D32,#43A047);
+
+color:white;
+
+}
+
+.contact-left h2,
+
+.contact-left p{
+
+color:white;
+
+}
