@@ -865,3 +865,66 @@ font-size:28px;
 }
 
 }
+/*==========================
+        SPORT ABOUT
+==========================*/
+
+.sport-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.sport-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:18px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+transition:.35s;
+
+border-top:5px solid var(--primary);
+
+}
+
+.sport-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.sport-card i{
+
+font-size:42px;
+
+color:var(--primary);
+
+margin-bottom:15px;
+
+}
+
+.sport-card h3{
+
+color:var(--dark);
+
+margin-bottom:10px;
+
+}
+
+.sport-card p{
+
+color:#555;
+
+}
